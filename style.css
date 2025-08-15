@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+display: grid;
+justify-items: center;
+place-items: center;  
+
+
+}
+.buttons{
+padding: 20px;
+ }
+button{
+    padding:10px 30px;
+    margin: 10px;
+    border: none;
+    border-radius:1.5rem ;
+    -webkit-border-radius:1.5rem ;
+    -moz-border-radius:1.5rem ;
+    -ms-border-radius:1.5rem ;
+    -o-border-radius:1.5rem ;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+}
+.backColor{
+    padding: 10px;
+    border-left: 2px solid white;
+    border-right:2px solid white ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
